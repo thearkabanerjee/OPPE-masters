@@ -28,4 +28,18 @@ def is_odd_length_palindrome(s: str) -> bool:
         bool - True if s is a palindrome with odd length, False otherwise.
     '''
     ...
-    
+
+
+
+
+def is_odd_length_palindrome(s:str)-> bool:
+	if (len(s) % 2 == 0):
+		return False
+	else:
+		if ((s[::-1]) == s):
+			return True 
+		else:
+			return False
+
+s = is_odd_length_palindrome("madan")
+print (s)
