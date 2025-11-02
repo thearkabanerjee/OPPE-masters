@@ -47,3 +47,10 @@ print (s)
 
 
 # the top 1% of the 1% . the guys who get to play god without permission.
+
+
+
+
+## take out from this:
+
+# reversing the string is -> s[::-1]
