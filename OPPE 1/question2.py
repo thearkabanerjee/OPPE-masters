@@ -43,3 +43,7 @@ def is_odd_length_palindrome(s:str)-> bool:
 
 s = is_odd_length_palindrome("madan")
 print (s)
+
+
+
+# the top 1% of the 1% . the guys who get to play god without permission.
