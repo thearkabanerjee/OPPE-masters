@@ -18,6 +18,26 @@
 # mins = ... # int
 
 
+output1 = (a+b)
+output2 = 2 * (output1)
+output3 = abs(a-b)
+output4 = abs (output1 - (a*b))
+
+
+## Find discounted price given price and discounted_percent
+
+## input variables are : price: int, discount_percent: float
+
+
+discounted_price = float((100- discount_percent) * price)
+
+
+
+
+  
+
+
+
 
 
 
