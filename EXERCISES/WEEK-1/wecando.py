@@ -18,6 +18,12 @@
 # mins = ... # int
 
 
+# Sample inputs (# note: The values given in the prefix code(grey) will be changed by the autograder according to the testcase while running them.
+a = 5
+b = 6
+price, discount_percent = 80, 5.75
+total_mins = 470
+
 output1 = (a+b)
 output2 = 2 * (output1)
 output3 = abs(a-b)
@@ -29,7 +35,7 @@ output4 = abs (output1 - (a*b))
 ## input variables are : price: int, discount_percent: float
 
 
-discounted_price = float((100- discounted_percent) * price)
+discounted_price = float((100- discount_percent) * price)
 
 
 
