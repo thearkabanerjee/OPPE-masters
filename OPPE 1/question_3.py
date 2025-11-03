@@ -39,4 +39,5 @@ def remove_elements_at_two_indices(l: list, i1: int, i2: int):
     
     ...
 
-
+def remove_elements_at_two_indices(l:list, i1: int, i2: int):
+	l 
