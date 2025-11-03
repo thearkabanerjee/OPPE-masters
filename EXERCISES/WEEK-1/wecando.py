@@ -38,6 +38,9 @@ output4 = abs (output1 - (a*b))
 discounted_price = float((100- discount_percent) * price)
 
 
+print (discounted_price, output4, output3, output2, output1)
+
+
 
 
   
