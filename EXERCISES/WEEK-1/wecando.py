@@ -29,7 +29,7 @@ output4 = abs (output1 - (a*b))
 ## input variables are : price: int, discount_percent: float
 
 
-discounted_price = float((100- discount_percent) * price)
+discounted_price = float((100- discounted_percent) * price)
 
 
 
