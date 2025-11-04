@@ -44,3 +44,6 @@ def remove_elements_at_two_indices(l:list, i1: int, i2: int):
     lo = i2 if i1 > i2 else i1
     del l[hi]
     del l[lo]
+
+
+# dont know how it works
