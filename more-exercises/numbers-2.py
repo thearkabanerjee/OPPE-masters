@@ -48,12 +48,16 @@
 
 def is_ten_digit_even(n):
     if (n % 2 == 0):
-        return (bool(1))
+        n = str(n)
+        if (len(n)==10):
+         return (bool(1))
+        else:
+           return (bool(0))
     else: 
         return (bool (0))
     
 
 
 
-a = is_ten_digit_even(12)
+a = is_ten_digit_even(-1212121212)
 print (a)
