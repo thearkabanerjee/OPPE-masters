@@ -36,3 +36,8 @@
 #     '''
 #     ...
     
+
+def format_as_second_comma_first(t:tuple)-> str:
+     return f"{t[1]}, {t[0]}"
+
+# just uses a f string waaah waah 
