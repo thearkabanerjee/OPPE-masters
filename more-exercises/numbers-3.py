@@ -23,3 +23,15 @@
 #     '''
 #     ...
     
+
+
+def arithmetic_operations(t:tuple) -> tuple:
+    s = sum(t)
+    difference = t[0] - t [1]
+    product = t[0] * t[1]
+    quotient = t[0] //t[1]
+    return (s, difference, product, quotient)
+
+
+a= arithmetic_operations((10, 5))
+print (a)
