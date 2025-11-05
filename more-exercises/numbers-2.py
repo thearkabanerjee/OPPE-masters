@@ -42,4 +42,9 @@
 #     '''
 #     ...
     
+# print (bool(0)). -> prints out False 
 
+# print (bool (1)) -> prints out True
+
+def is_ten_digit_even(n):
+    
