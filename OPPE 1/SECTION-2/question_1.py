@@ -33,5 +33,4 @@ def sum_of_squares_of_even(nums: list) -> int:
 def sum_of_squares_of_even(nums:list) -> int:
     # check which numbers in the list are just even and which ones are not
 
-
     
