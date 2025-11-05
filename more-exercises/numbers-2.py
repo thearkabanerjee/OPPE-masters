@@ -47,4 +47,13 @@
 # print (bool (1)) -> prints out True
 
 def is_ten_digit_even(n):
+    if (n % 2 == 0):
+        return (bool(1))
+    else: 
+        return (bool (0))
     
+
+
+
+a = is_ten_digit_even(12)
+print (a)
